@@ -4,7 +4,6 @@ import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
 export function NavBarContainer() {
   return (
     <Navbar bg="light" expand="lg">
@@ -15,6 +14,7 @@ export function NavBarContainer() {
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#link">Projects</Nav.Link>
+            <Nav.Link href="#link">Contact Me</Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
