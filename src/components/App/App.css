@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.singing-pic-container {
+  width: 50%;
+  max-width: 1000px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.top-right {
+  position: absolute;
+  font-size: 40px;
+  font-weight: 700;
+  top: 8px;
+  right: 16px;
+}
