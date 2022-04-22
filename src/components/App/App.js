@@ -1,27 +1,17 @@
-import logo from "./logo.svg";
+import HomePage from "../HomePage";
+import Projects from "../Projects";
+import NavBarContainer from "../NavBarContainer";
 import "./App.css";
-import { NavBarContainer } from "../NavBarContainer";
-import singingPic from "../../MeSinging.jfif";
+import { Routes, Route } from "react-router-dom";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <NavBarContainer />
-      <div className="flex-container">
-        <div className="singing-pic-container">
-          <img style={{ width: "100%" }} src={singingPic} />
-          <div class="top-right">
-            <p>Lorcan McCullagh</p>
-            <p>Software Developer</p>
-          </div>
-        </div>
-        <div className="about-me">
-          <h2>About Me</h2>
-          <p>paragraph goes here.........</p>
-        </div>
-      </div>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/projects" element={<Projects />} />
+        </Routes>
     </div>
   );
 }
-
-export default App;

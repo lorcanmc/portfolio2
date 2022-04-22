@@ -2,33 +2,37 @@
   /* text-align: center; */
 }
 
-
 .singing-pic-container {
   width: 100%;
-  /* max-width: 1400px; */
   position: relative;
   text-align: center;
   color: white;
 }
 
-.top-right {
-  border: 1px solid black;
-  width: 50%;
+.singing-pic {
+  position: relative;
+}
 
+.top-right {
+  width: 50%;
   position: absolute;
-  font-size: 40px;
+  font-size: calc(3vw - 3px);
   font-weight: 700;
-  top: 8px;
+  top: 6%;
   right: 16px;
 }
 
-.flex-container {
+.home-container {
   display: flex;
-  
 }
 
 .about-me {
   width: 100%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   text-align: center;
+}
+
+.project-container {
+  display: flex;
+  
 }
