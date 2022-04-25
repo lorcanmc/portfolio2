@@ -15,11 +15,11 @@ export default function NavBarContainer() {
     >
       <Navbar bg="light" expand="lg">
         <Container>
-          <Navbar.Brand href="#home">Lorcan McCullagh</Navbar.Brand>
+          <Navbar.Brand href="./">Lorcan McCullagh</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
+              <Nav.Link href="./">Home</Nav.Link>
               <Nav.Link href="/projects">Projects</Nav.Link>
               <Nav.Link href="#link">Contact Me</Nav.Link>
               <NavDropdown title="My Links" id="basic-nav-dropdown">
