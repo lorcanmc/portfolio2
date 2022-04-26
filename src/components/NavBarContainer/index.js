@@ -20,7 +20,7 @@ export default function NavBarContainer() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="./">Home</Nav.Link>
-              <Nav.Link as={Link} href="./projects">Projects</Nav.Link>
+              <Nav.Link href="/projects">Projects</Nav.Link>
               <Nav.Link href="https://www.linkedin.com/in/lorcan-mccullagh-24b127220/">
                 LinkedIn
               </Nav.Link>
