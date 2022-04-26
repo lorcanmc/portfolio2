@@ -12,6 +12,7 @@ export default function Project(props) {
           playing={true}
           height="500px"
           width="700px"
+          muted
         />
       ) : (
         <div className="project-image">

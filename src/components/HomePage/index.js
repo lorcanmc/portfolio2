@@ -1,4 +1,5 @@
 import singingPic from "../../MeSinging.jfif";
+import { Link } from "react-router-dom";
 
 export default function HomePage() {
   return (
@@ -26,6 +27,11 @@ export default function HomePage() {
             communicate as a team and how to explore new coding in a fun and
             digestible way
           </p>
+          <Link to="/projects">
+            <button type="button" className="myButton">
+              See My Projects
+            </button>
+          </Link>
         </div>
       </div>
     </div>

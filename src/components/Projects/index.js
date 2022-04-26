@@ -2,7 +2,7 @@ import Project from "../Project";
 
 export default function Projects() {
   return (
-    <div className="projects-container" style={{ margin: "0 40px" }}>
+    <div className="projects-container">
       <Project
         name="Animle"
         video="videos/animle.mp4"
@@ -35,10 +35,12 @@ export default function Projects() {
         description={
           <div>
             <p>
-              A music exploration app - Personal Project Designed to recreate
+              A music exploration app. Designed to recreate
               the look and feel of Spotify with the functionality to find your
-              favourite songs and add them to your favourites
+              favourite songs and add them to your favourites.
             </p>
+            <p>This React front end connects to the ITunes API from Apple</p>
+            <p>I was having issues with CORS Headers on data coming from ITunes so I routed through CORS middleware hosted on Heroku </p>
           </div>
         }
         appLink="https://alotify-app.netlify.app/"
