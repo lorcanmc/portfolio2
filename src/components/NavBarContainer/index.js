@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
-// import NavDropdown from "react-bootstrap/NavDropdown";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function NavBarContainer() {
@@ -21,20 +20,9 @@ export default function NavBarContainer() {
             <Nav className="me-auto">
               <Nav.Link href="./">Home</Nav.Link>
               <Nav.Link href="/projects">Projects</Nav.Link>
-              <Nav.Link href="#link">LinkedIn</Nav.Link>
-              {/* <NavDropdown title="My Links" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">LinkedIn</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
-                  Something
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
-                </NavDropdown.Item>
-              </NavDropdown> */}
+              <Nav.Link href="https://www.linkedin.com/in/lorcan-mccullagh-24b127220/">
+                LinkedIn
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
