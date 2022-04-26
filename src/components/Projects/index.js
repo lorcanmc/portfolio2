@@ -35,12 +35,15 @@ export default function Projects() {
         description={
           <div>
             <p>
-              A music exploration app. Designed to recreate
-              the look and feel of Spotify with the functionality to find your
-              favourite songs and add them to your favourites.
+              A music exploration app. Designed to recreate the look and feel of
+              Spotify with the functionality to find your favourite songs and
+              add them to your favourites.
             </p>
             <p>This React front end connects to the ITunes API from Apple</p>
-            <p>I was having issues with CORS Headers on data coming from ITunes so I routed through CORS middleware hosted on Heroku </p>
+            <p>
+              I was having issues with CORS Headers on data coming from ITunes
+              so I routed through CORS middleware hosted on Heroku{" "}
+            </p>
           </div>
         }
         appLink="https://alotify-app.netlify.app/"

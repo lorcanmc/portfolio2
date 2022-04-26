@@ -1,4 +1,3 @@
-import React from "react";
 import ReactPlayer from "react-player";
 
 export default function Project(props) {
@@ -16,7 +15,7 @@ export default function Project(props) {
         />
       ) : (
         <div className="project-image">
-          <img src={video} />
+          <img src={video} alt="the project" />
         </div>
         
       )}
